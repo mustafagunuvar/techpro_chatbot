@@ -98,7 +98,7 @@ if not os.path.exists(persist_directory):
 vectordb = Chroma.from_documents(documents=texts,
                                  collection_name="rag-chroma",
                                  embedding=bge_embeddings,
-                                 persist_directory=persist_directory)
+                                 persist_directory=None)
 
 retriever = vectordb.as_retriever()
 
