@@ -17,4 +17,3 @@ langchain_openai
 langchain_groq
 rapidfuzz
 chromadb[all]
-python==3.10
